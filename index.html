@@ -148,7 +148,17 @@
         </div>
         
     </div>
-    <script src="CarCode.js"></script>
+    <script>
+        const container = document.querySelector('.container');
+
+container.addEventListener('click',()=>{
+    const music = new Audio('Car.mp3');
+    music.play();
+    return false;
+
+})
+
+    </script>
 
 </body>
 </html>
